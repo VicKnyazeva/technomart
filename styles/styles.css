@@ -187,12 +187,15 @@ body {
 }
 
 .site-search-input:focus,
-.site-search-input:hover,
-.site-search-input:active {
+.site-search-input:hover {
     background-color: #F1F5F7;
     background-image: url("../images/icons/search-active.svg");
     background-repeat: no-repeat;
     background-position: 14px 50%;
+}
+
+.site-search-input:active {
+    color: #293449;
 }
 
 .site-search-input:disabled {
@@ -204,9 +207,12 @@ body {
 }
 
 .site-search-input:focus::placeholder,
-.site-search-input:hover::placeholder,
-.site-search-input:hover:active {
+.site-search-input:hover::placeholder {
     color: #C5C5C5;
+}
+
+.site-search-input:active::placeholder {
+    color: #293449;
 }
 
 .user-navigation {
